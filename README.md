@@ -53,7 +53,7 @@ O bot também permite que as conversas sejam **limpas** com o comando `.clear`, 
      ```
 
 3. **Adicionar o Token do Bot**:
-   - No arquivo `bot.py`, substitua `"YOUR_BOT_TOKEN"` pelo **token** do seu bot do Discord.
+   - No arquivo `app.py`, substitua `"YOUR_BOT_TOKEN"` pelo **token** do seu bot do Discord.
 
 4. **Rodar o Bot**:
    - Para rodar o bot, use o seguinte comando:
@@ -139,7 +139,7 @@ The bot also allows you to **clear** the chat synchronization with the `.clear` 
      ```
 
 3. **Add the Bot Token**:
-   - In the `bot.py` file, replace `"YOUR_BOT_TOKEN"` with your **Discord bot token**.
+   - In the `app.py` file, replace `"YOUR_BOT_TOKEN"` with your **Discord bot token**.
 
 4. **Run the Bot**:
    - To run the bot, use the following command:
