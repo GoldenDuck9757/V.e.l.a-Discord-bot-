@@ -43,7 +43,7 @@ O bot também permite que as conversas sejam **limpas** com o comando `.clear`, 
 1. **Clonar ou baixar o repositório**:
    - Você pode clonar o repositório com o comando:
      ```bash
-     git clone https://github.com/SEU_USUARIO/discord-sync-bot.git
+     git clone https://github.com/GoldenDuck9757/V.e.l.a-Discord-bot-
      ```
 
 2. **Instalar as dependências**:
@@ -129,7 +129,7 @@ The bot also allows you to **clear** the chat synchronization with the `.clear` 
 1. **Clone or download the repository**:
    - You can clone the repository with the command:
      ```bash
-     git clone https://github.com/YOUR_USERNAME/discord-sync-bot.git
+     git clone https://github.com/GoldenDuck9757/V.e.l.a-Discord-bot-
      ```
 
 2. **Install dependencies**:
