@@ -58,7 +58,7 @@ O bot também permite que as conversas sejam **limpas** com o comando `.clear`, 
 4. **Rodar o Bot**:
    - Para rodar o bot, use o seguinte comando:
      ```bash
-     python bot.py
+     python app.py
      ```
 
 ---
@@ -144,7 +144,7 @@ The bot also allows you to **clear** the chat synchronization with the `.clear` 
 4. **Run the Bot**:
    - To run the bot, use the following command:
      ```bash
-     python bot.py
+     python app.py
      ```
 
 ---
