@@ -1,4 +1,4 @@
-# 🔗 Discord Sync Bot
+#  Discord Sync Bot
 
 
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 💡 Sobre o Bot
+##  Sobre o Bot
 
 Este bot é uma ferramenta poderosa para **sincronização de mensagens** entre usuários do Discord, com uma interface simples e clara. Ele permite que duas pessoas sincronizem suas conversas, com todas as mensagens trocadas sendo automaticamente encaminhadas entre os dois. Isso pode ser útil para diversos casos de uso, como moderação, verificação de mensagens e testes.
 
@@ -14,7 +14,7 @@ O bot também possui um sistema de **termos de uso** que deve ser aceito pelos u
 
 ---
 
-## 🛠️ Como Funciona
+##  Como Funciona
 
 ### 1. **Aceitar os Termos de Uso**
 
@@ -30,7 +30,7 @@ O bot também permite que as conversas sejam **limpas** com o comando `.clear`, 
 
 ---
 
-## 📝 Comandos Disponíveis
+##  Comandos Disponíveis
 
 - **.guides**: Mostra os termos de uso e ajuda para começar a usar o bot.
 - **.chat [user_id]**: Sincroniza a conversa com outro usuário especificado pelo ID.
@@ -38,7 +38,7 @@ O bot também permite que as conversas sejam **limpas** com o comando `.clear`, 
 
 ---
 
-## ⚙️ Como Adicionar e Usar o Bot
+##  Como Adicionar e Usar o Bot
 
 1. **Clonar ou baixar o repositório**:
    - Você pode clonar o repositório com o comando:
@@ -63,7 +63,7 @@ O bot também permite que as conversas sejam **limpas** com o comando `.clear`, 
 
 ---
 
-## 🚀 Personalizando para Outros Usos
+##  Personalizando para Outros Usos
 
 Este bot pode ser facilmente adaptado para diversos casos de uso. Aqui estão algumas sugestões para personalização:
 
@@ -72,104 +72,20 @@ Este bot pode ser facilmente adaptado para diversos casos de uso. Aqui estão al
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a **MIT License**. Veja o arquivo LICENSE para mais detalhes.
 
 ---
 
-## 👨‍💻 Contribuições
+##  Contribuições
 
 Se você deseja contribuir para este projeto, sinta-se à vontade para **abrir um Pull Request** ou **criar um novo issue** para sugerir melhorias.
 
 ---
 
-## 🧑‍💻 Desenvolvedor
+##  Desenvolvedor
 
 - **Golden4484** (desenvolvedor principal)
 
 ---
-
-## 🇬🇧 English
-
-### 💡 About the Bot
-
-This bot is a powerful tool for **message synchronization** between Discord users, with a simple and clear interface. It allows two people to sync their conversations, with all exchanged messages being automatically forwarded between them. This can be useful for various use cases such as moderation, message verification, and testing.
-
-The bot also has a **terms of use** system that must be accepted by users before using the bot, ensuring everyone is aware of the rules and expected behavior.
-
----
-
-### 🛠️ How It Works
-
-#### 1. **Accepting the Terms of Use**
-
-When using the `.guides` command in DM, the bot will send a message with the **terms of use**. The user must accept the terms to use the bot. If the user rejects them, the bot will not allow access.
-
-#### 2. **Syncing Chats**
-
-After accepting the terms, users can use the `.chat [user_id]` command to sync their chat with another user. This will forward all sent messages between both users.
-
-#### 3. **Managing Chats**
-
-The bot also allows you to **clear** the chat synchronization with the `.clear` command, which disables message synchronization and deletes exchanged messages.
-
----
-
-### 📝 Available Commands
-
-- **.guides**: Shows the terms of use and helps get started.
-- **.chat [user_id]**: Syncs the chat with another user by their ID.
-- **.clear**: Clears the chat synchronization and deletes exchanged messages.
-
----
-
-### ⚙️ How to Add and Use the Bot
-
-1. **Clone or download the repository**:
-   - You can clone the repository with the command:
-     ```bash
-     git clone https://github.com/GoldenDuck9757/V.e.l.a-Discord-bot-
-     ```
-
-2. **Install dependencies**:
-   - Install the necessary dependencies with:
-     ```bash
-     pip install -r requirements.txt
-     ```
-
-3. **Add the Bot Token**:
-   - In the `app.py` file, replace `"YOUR_BOT_TOKEN"` with your **Discord bot token**.
-
-4. **Run the Bot**:
-   - To run the bot, use the following command:
-     ```bash
-     python app.py
-     ```
-
----
-
-### 🚀 Customizing for Other Uses
-
-This bot can be easily adapted for various use cases. Here are some suggestions for customization:
-
-- **Add new commands**: You can add new commands to expand the bot's functionality.
-- **Change message behavior**: The bot's behavior when forwarding or editing messages can be modified to meet specific needs.
-
----
-
-### 📄 License
-
-This project is licensed under the **MIT License**. See the LICENSE file for more details.
-
----
-
-### 👨‍💻 Contributions
-
-If you wish to contribute to this project, feel free to **open a Pull Request** or **create a new issue** to suggest improvements.
-
----
-
-### 🧑‍💻 Developer
-
-- **Golden4484** (main developer)
