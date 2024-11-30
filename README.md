@@ -1,6 +1,6 @@
 # 🔗 Discord Sync Bot
 
-![Discord Sync Bot Banner](https://media.discordapp.net/attachments/1309177152624918688/1309275516955529226/Picsart_24-11-20_19-31-13-547.jpg?ex=6740fd58&is=673fabd8&hm=1fe59815f063cbb0bd4d622093c5fe7fc52d839314787eb120e467301b147105)
+![Discord Sync Bot Banner](https://media.discordapp.net/attachments/1308892854570975354/1312445623399878747/Picsart_24-11-20_19-31-13-547.jpg?ex=674c85bc&is=674b343c&hm=ebe919fc1e6952594aa8da33b4b1a3e679ed63d93b2b62073ca2e9bdb0f13f35&)
 
 **Language:** [English](#english) | [Português](#portuguese)
 
