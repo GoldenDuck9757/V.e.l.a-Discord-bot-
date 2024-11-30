@@ -1,14 +1,14 @@
-#  Discord Sync Bot
+#  Discord Sync Bot (V.E.L.A BOT)
 
 
 
-**Language:** [English](#english) | [Português](#portuguese)
+**Language:** [Português](#portuguese)
 
 ---
 
 ##  Sobre o Bot
 
-Este bot é uma ferramenta poderosa para **sincronização de mensagens** entre usuários do Discord, com uma interface simples e clara. Ele permite que duas pessoas sincronizem suas conversas, com todas as mensagens trocadas sendo automaticamente encaminhadas entre os dois. Isso pode ser útil para diversos casos de uso, como moderação, verificação de mensagens e testes.
+Este bot é uma ferramenta para **sincronização de mensagens** entre usuários do Discord, com uma interface simples e clara. Ele permite que duas pessoas sincronizem suas conversas, com todas as mensagens trocadas sendo automaticamente encaminhadas entre os dois. Isso pode ser útil para diversos casos de uso, como moderação, verificação de mensagens e testes.
 
 O bot também possui um sistema de **termos de uso** que deve ser aceito pelos usuários antes de utilizarem o bot, garantindo que todos estejam cientes das regras de uso e do comportamento esperado.
 
