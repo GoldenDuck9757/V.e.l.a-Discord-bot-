@@ -86,6 +86,6 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para **abrir u
 
 ##  Desenvolvedor
 
-- **Golden4484** (desenvolvedor principal)
+- **GoldenDuck9757** (desenvolvedor principal)
 
 ---
