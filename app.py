@@ -10,7 +10,6 @@ intents.message_content = True
 intents.dm_messages = True
 intents.messages = True
 intents.reactions = True
-intents.reactions = True
 
 bot = commands.Bot(command_prefix=".", intents=intents)
 
@@ -164,12 +163,22 @@ async def on_message(message):
                         forwarded_message = await target_user.send(file=await attachment.to_file())
                 else:
                     forwarded_message = await target_user.send(message.content)
-                
+
                 # Salvar a mensagem para exclusão e edição sincronizada
                 if forwarded_message:
                     message_links[message.id] = forwarded_message.id
             except discord.Forbidden:
                 await message.author.send("Message forwarding failed. The user may have blocked the bot.")
+
+        # Se o usuário der reply em uma mensagem do bot, o bot responde também
+        if message.reference and message.reference.message_id in message_links.values():
+            original_message = await message.channel.fetch_message(message.reference.message_id)
+            if original_message.author == bot.user:
+                # O bot responde com a mesma mensagem no outro chat
+                target_user_id = active_chats.get(str(message.author.id))
+                if target_user_id:
+                    target_user = await bot.fetch_user(target_user_id)
+                    await target_user.send(content=message.content, reference=original_message)
 
     await bot.process_commands(message)
 
@@ -196,19 +205,6 @@ async def on_message_edit(before, after):
                 target_message_id = message_links[before.id]
                 target_message = await target_user.fetch_message(target_message_id)
                 await target_message.edit(content=after.content)
-            except Exception:
-                pass
-
-@bot.event
-async def on_reaction_add(reaction, user):
-    if isinstance(reaction.message.channel, discord.DMChannel) and reaction.message.id in message_links:
-        target_user_id = active_chats.get(str(reaction.message.author.id))
-        if target_user_id:
-            target_user = await bot.fetch_user(target_user_id)
-            try:
-                target_message_id = message_links[reaction.message.id]
-                target_message = await target_user.fetch_message(target_message_id)
-                await target_message.add_reaction(reaction.emoji)
             except Exception:
                 pass
 
